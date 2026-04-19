@@ -2282,7 +2282,7 @@ function renderExitScreen() {
                         padding: 1rem;
                     }
                     .message:nth-child(1){
-                        margin-top: 625%;
+                        margin-top: 650%;
                     }
                     
                     .closing-message {

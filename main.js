@@ -138,7 +138,14 @@ function balloonSlide() {
         <div style="position: relative; width: 100%; height: 100vh; background: #111;">
             <canvas id="balloonCanvas"></canvas>
             <button class="secondary-btn" id="skipBalloon" 
-                style="position: absolute; bottom: 30px; right: 30px; z-index: 10; background: rgba(0,0,0,0.5); color: white;">
+                style="
+                position: absolute;
+                bottom: 25%;
+                right: 50%;
+                transform: translate(50%, 50%);
+                z-index: 10;
+                background: rgba(0,0,0,0.5);
+                color: white;">
                 <i class="fa-solid fa-forward"></i> Skip
             </button>
         </div>

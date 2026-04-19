@@ -617,8 +617,15 @@ function heartSlide() {
         <div style="position: relative; width: 100%; height: 100vh; background: linear-gradient(to bottom, #1a0a1f, #0a0515);">
             <canvas id="heartCanvas"></canvas>
             <button class="secondary-btn" id="nextFromHeart"
-                style="position:absolute; bottom:40px; left:50%; transform:translateX(-50%); z-index:10; 
-                       background: rgba(255, 105, 180, 0.2); border: 2px solid #ff69b4; color: white;">
+                style="
+                position:absolute;
+                bottom: 20%;
+                left:50%;
+                transform:translateX(-50%, 50%);
+                z-index:10; 
+                background: rgba(255, 105, 180, 0.2);
+                border: 2px solid #ff69b4;
+                color: white;">
                 <i class="fa-solid fa-arrow-right"></i> Continue
             </button>
         </div>

@@ -1584,16 +1584,16 @@ async function gallerySlide() {
                     top: 50%;
                     transform: translateY(-50%);
                     left: 20px;
-                    width: 60px;
-                    height: 60px;
-                    background-color: rgba(255, 255, 255, 0.9);
+                    width: 50px;
+                    height: 50px;
+                    background-color: rgba(255, 255, 255, 0.3);
                     border: none;
                     border-radius: 50%;
                     color: #ff69b4;
                     font-size: 1.6em;
                     cursor: pointer;
-                    backdrop-filter: blur(10px);
-                    -webkit-backdrop-filter: blur(10px);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px);
                     transition: all 0.3s ease;
                     z-index: 20;
                     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -1609,16 +1609,16 @@ async function gallerySlide() {
                     top: 50%;
                     transform: translateY(-50%);
                     right: 20px;
-                    width: 60px;
-                    height: 60px;
-                    background-color: rgba(255, 255, 255, 0.9);
+                    width: 50px;
+                    height: 50px;
+                    background-color: rgba(255, 255, 255, 0.3);
                     border: none;
                     border-radius: 50%;
                     color: #ff69b4;
                     font-size: 1.6em;
                     cursor: pointer;
-                    backdrop-filter: blur(10px);
-                    -webkit-backdrop-filter: blur(10px);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px);
                     transition: all 0.3s ease;
                     z-index: 20;
                     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -1677,7 +1677,7 @@ async function gallerySlide() {
                 </div>
                 <button class="finish-gallery-btn" style="
                     position: absolute;
-                    bottom: 5%;
+                    bottom: 10%;
                     right: 50%;
                     padding: 14px 28px;
                     font-size: 1rem;

@@ -242,7 +242,6 @@ function renderStartScreen() {
     `;
     document.head.appendChild(style);
   }
-
 function balloonSlide() {
     console.log("Balloon slide (fireworks) loaded");
     

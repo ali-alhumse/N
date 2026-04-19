@@ -214,3 +214,131 @@ canvas {
     overflow-wrap: break-word;
   }
 }
+
+/* =========================================
+   480px وما دون (معظم الهواتف الكبيرة)
+   Responsive تحسين شامل
+========================================= */
+@media (max-width: 480px) {
+
+  /* عام */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* الحاويات */
+  .container,
+  .wrapper,
+  .main-container,
+  section,
+  .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    margin: auto !important;
+  }
+
+  /* العناوين */
+  h1,
+  .title,
+  .main-title {
+    font-size: 2.3rem !important;
+    line-height: 1.2 !important;
+    text-align: center;
+  }
+
+  h2,
+  .subtitle {
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+  }
+
+  p,
+  span,
+  li {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* الأزرار */
+  button,
+  .btn,
+  .yes-btn,
+  .no-btn {
+    padding: 12px 22px !important;
+    font-size: 1rem !important;
+    min-width: 140px;
+    max-width: 100%;
+  }
+
+  /* مجموعات الأزرار */
+  .buttons,
+  .btn-group,
+  .actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    align-items: center !important;
+    width: 100%;
+  }
+
+  /* الصور */
+  img,
+  .image,
+  .hero-img {
+    width: 100% !important;
+    max-width: 360px !important;
+    height: auto !important;
+    display: block;
+    margin: auto;
+  }
+
+  /* الفيديو أو canvas */
+  canvas,
+  video {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100dvh;
+  }
+
+  /* العناصر السفلية */
+  .bottom-fixed,
+  .controls,
+  .question-box {
+    width: calc(100% - 36px) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 20px !important;
+  }
+
+  /* العناصر المتحركة */
+  .floating,
+  .heart,
+  .emoji {
+    transform: scale(.92);
+  }
+
+  /* المسافات */
+  section {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+  }
+
+  /* منع خروج النص */
+  h1, h2, h3, p, span {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+}

@@ -621,7 +621,7 @@ function heartSlide() {
                 position:absolute;
                 bottom: 20%;
                 left:50%;
-                transform:translateX(-50%, 50%);
+                transform:translate(-50%, 50%);
                 z-index:10; 
                 background: rgba(255, 105, 180, 0.2);
                 border: 2px solid #ff69b4;
